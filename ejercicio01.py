@@ -1,4 +1,6 @@
 contraseña = "borbonladron"
 respuesta = input("introduzca la contraseña: ")
-if respuesta == contraseña:
-     print(respuesta)
+respuesta = respuesta.upper()
+contraseña = contraseña.upper()
+if respuesta == contraseña :
+     print(respuesta.lower())
